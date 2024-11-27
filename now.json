@@ -1,27 +1,6 @@
 {
   "version": 2,
-  "alias": [
-    "seejamesdesign",
-    "seejamesdesign.com",
-    "www.seejamesdesign.com",
-    "seejamescode.com",
-    "www.seejamescode.com"
-  ],
-  "build": {
-    "env": {
-      "CONTENTFUL_SPACE_ID": "@seejamescode-contentful-space-id",
-      "CONTENTFUL_ACCESS_TOKEN": "@seejamescode-contentful-access-token",
-      "CONTENTFUL_PREVIEW_ACCESS_TOKEN": "@seejamescode-contentful-preview-access-token",
-      "CONTENTFUL_PREVIEW_SECRET": "@seejamescode-contentful-preview-secret"
-    }
-  },
-  "env": {
-    "CONTENTFUL_SPACE_ID": "@seejamescode-contentful-space-id",
-    "CONTENTFUL_ACCESS_TOKEN": "@seejamescode-contentful-access-token",
-    "CONTENTFUL_PREVIEW_ACCESS_TOKEN": "@seejamescode-contentful-preview-access-token",
-    "CONTENTFUL_PREVIEW_SECRET": "@seejamescode-contentful-preview-secret",
-    "MONGO_URI": "@seejamescode-mongo-uri"
-  },
+  "alias": ["old.seejamesdesign.com"],
   "rewrites": [
     {
       "source": "/service-worker.js",
